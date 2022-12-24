@@ -6,12 +6,12 @@ var botui = new BotUI('dialogue');
     }).then(function() {
         return botui.message.bot({
             delay: 1000,
-            content: "我是 芸豆玥，你也可以叫我汤包🍭"
+            content: "我是 rezhe，是一个ai对话机器人🍭"
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1000,
-            content: "他不是plmm！！！"
+            content: "是站长东鸟的网络数据形态"
         })
     }).then(function() {
         return botui.action.button({
@@ -21,7 +21,7 @@ var botui = new BotUI('dialogue');
                 value: "and"
             },
             {
-                text: "少废话！ 🙄",
+                text: "说正事！ 🙄",
                 value: "gg"
             }]
         })
@@ -44,35 +44,35 @@ var botui = new BotUI('dialogue');
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "15岁，是初二"
+                content: "21岁，新疆大学牲，电气专业正在上大三"
             })
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "略懂 HTML/PHP/JAVA，有空也会研究SSH"
+                content: "因为东鸟很忙所以创造了我作为站长代理在这里跟你聊天"
             })
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "不过还是比较熟悉开服以及找plmm，最擅长白嫖o(*￣︶￣*)o"
+                content: "虽说如此但是希望你如果有正事还是找他本人比较妙o(*￣︶￣*)o"
             })
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "喜欢折腾，热爱折腾，目前正在计算机一道上探索中"
+                content: "没事跟我说的话我就去斗地主了"
             })
         }).then(function() {
             return botui.action.button({
                 delay: 1500,
                 action: [{
-                    text: "为什么叫 芸豆玥-汤包 呢？ 🤔",
+                    text: "别走，你为什么叫rezhe呢？ 🤔",
                     value: "next"
                 }]
             })
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "芸豆玥是一次起BOT名字时偶然打出了这个名字，于是我就给自己用了！"
+                content: "rezhe的re代表归零，zhe是zhecydn，东鸟的英文名！因为我是东鸟的数据态，所以合二为一"
             })
         }).then(function() {
             return botui.action.button({
@@ -85,12 +85,12 @@ var botui = new BotUI('dialogue');
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "当然是折腾事情了，不是在折腾就是在折腾事情的路上~"
+                content: "当然是搞事情了，平时喜欢玩游戏看动漫什么的，不过如果有赚钱的事情我也很感兴趣~"
             })
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "如果我的文章对你有所帮助的话，那么是我的荣幸 😊"
+                content: "如果我的网站内容能帮到你的话，那么是我的荣幸 😊"
             })
         }).then(function(res) {
             return botui.message.bot({
